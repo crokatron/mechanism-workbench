@@ -1,0 +1,65 @@
+{
+  "slug": "mechanism-workbench",
+  "title": "Mechanism Workbench",
+  "summary": "Explore a library of mechanical relationships with editable inputs, diagrams and explicit equations. The workspace includes linkages, levers, pulleys, rotary and linear mechanisms, fluid systems, springs and hydraulic door arrangements. It supports first-pass comparison and explanation rather than replacing a complete machine design.",
+  "features": [
+    [
+      "Library and search",
+      "Twenty-four built-in mechanisms grouped by category.",
+      "Interactive workspace"
+    ],
+    [
+      "Equations and assumptions",
+      "Inspect the model behind a result instead of relying on an unexplained output.",
+      "Interactive workspace"
+    ],
+    [
+      "Linkage Studio",
+      "Enter the dedicated linkage-design workspace from the library.",
+      "Interactive workspace"
+    ],
+    [
+      "Door designer",
+      "Adjust four-bar geometry, cylinder mounting and door clearance through motion.",
+      "Interactive workspace"
+    ],
+    [
+      "Stress & strain",
+      "Use sizing loads in the related stress checks.",
+      "Interactive workspace"
+    ],
+    [
+      "Local defaults and exports",
+      "Edit/save defaults, export/import a workspace and export door motion CSV.",
+      "Interactive workspace"
+    ]
+  ],
+  "workflows": [
+    [
+      "Compare a mechanism",
+      [
+        "Search by name or choose a category, then select a built-in mechanism.",
+        "Read the description and open Equations & assumptions before changing inputs. Note units and whether the model is quasi-static.",
+        "Change one dimension or load and compare the diagram and result. Save as defaults only when you want the new baseline on this device."
+      ]
+    ],
+    [
+      "Work through a hydraulic four-bar door",
+      [
+        "Open Hydraulic four-bar door and the Door designer tab. Identify fixed O–D, input O–A, coupler A–B and output D–B. The moving virtual pivot C is not a physical hinge.",
+        "Set door geometry and cylinder dimensions, then move the opening-angle slider through the complete motion. Drag the allowed cylinder mount/lug points when exploring placement.",
+        "Read each geometry and sizing check: loop closure, hardware height, skin clearance, stroke, dead-centre avoidance and pressure. A green result for one check does not clear the others.",
+        "Use peak load in stress checks and inspect the Stress & strain tab. Export Motion CSV to examine the sampled movement."
+      ]
+    ],
+    [
+      "Keep a comparison you can revisit",
+      [
+        "Use Export before substantially changing your defaults. Import the saved workspace to restore it.",
+        "Name your files by mechanism and purpose; retain the input assumptions alongside any CSV you share.",
+        "Use Linkage Studio for its dedicated editing workflow. Final pin reactions, lateral clearances, hoses, fasteners and 3D packaging need separate design work."
+      ]
+    ]
+  ],
+  "limits": "The door preview uses sampled motion and conservative envelopes. It does not certify collisions or strength of a finished 3D assembly. The screenshot uses the included editable example, whose dimensions are explicitly unconfirmed."
+}

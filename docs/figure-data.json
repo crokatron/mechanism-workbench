@@ -1,0 +1,75 @@
+[
+  {
+    "boxes": [
+      {
+        "h": 52,
+        "selector": "input[aria-label=\"Search mechanisms\"]",
+        "text": "Search the library or narrow it by category.",
+        "title": "Find a mechanism",
+        "w": 291,
+        "x": 14,
+        "y": 154
+      },
+      {
+        "h": 58,
+        "selector": "[role=\"tablist\"]",
+        "text": "Move between the designer, stress checks and equations/assumptions.",
+        "title": "Switch the engineering view",
+        "w": 1440,
+        "x": 460,
+        "y": 276.578125
+      },
+      {
+        "h": 19,
+        "selector": "input[aria-label=\"Door opening angle\"]",
+        "text": "Move through the opening range and read the clearance and sizing checks.",
+        "title": "Inspect the full motion",
+        "w": 877.75,
+        "x": 611.25,
+        "y": 1146.703125
+      }
+    ],
+    "height": 1408,
+    "width": 2055,
+    "title": "Actual tool · controls at a glance",
+    "caption": "Actual application screenshot. Numbered boxes point to the controls described below. ",
+    "key": "mechanisms"
+  },
+  {
+    "boxes": [
+      {
+        "h": 39,
+        "selector": "#angle",
+        "text": "Use the angle slider to move the solved example.",
+        "title": "Move the crank",
+        "w": 260,
+        "x": 320,
+        "y": 542.703125
+      },
+      {
+        "h": 39,
+        "selector": "#rod",
+        "text": "The rod changes slider position while preserving the simple linkage.",
+        "title": "Change a link length",
+        "w": 260,
+        "x": 320,
+        "y": 698.703125
+      },
+      {
+        "h": 532.9375,
+        "selector": "#result",
+        "text": "This smaller demo solves slider-crank motion, not the full door/stress suite.",
+        "title": "Read the response",
+        "w": 517.078125,
+        "x": 1228.90625,
+        "y": 488.703125
+      }
+    ],
+    "height": 1408,
+    "width": 2055,
+    "key": "simulation",
+    "title": "Try the working offline example",
+    "caption": "Screenshot of this project’s interactive demo. Side-by-side services are explicitly simulated.",
+    "cropHeight": 1062.640625
+  }
+]
