@@ -12,4 +12,4 @@ Editable mechanism examples and door-motion studies with sampled travel, envelop
 
 **Next maintainer action:** Verify limiting positions and invalid-link geometry using known cases; reload an exported workspace before clearing browser data. Sampled envelopes do not prove full 3D clearance or structural strength.
 
-**Status:** private upload verified on 14 October 2026. These guides accompany the private source package. Live runtime, data backups and full recovery were not retested. Public release needs separate approval.
+**Status:** private upload verified on 14 October 2026. These guides accompany the source package. Live runtime, data backups and full recovery were not retested. Public sharing was authorised on 14 October 2026; the NAS backup remains private.

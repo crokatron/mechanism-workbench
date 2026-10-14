@@ -4,7 +4,9 @@
 
 Explore a library of mechanical relationships with editable inputs, diagrams and explicit equations. The workspace includes linkages, levers, pulleys, rotary and linear mechanisms, fluid systems, springs and hydraulic door arrangements. It supports first-pass comparison and explanation rather than replacing a complete machine design.
 
-**Private preview · not published.**
+[Publication checks and remaining limits](docs/PUBLICATION.md)
+
+**Public source preview · MIT for original contributions.**
 
 [Open the visual manual](docs/USER-MANUAL.md) · [Download the self-contained demo](demo.html) · [Release notes](CHANGELOG.md)
 
